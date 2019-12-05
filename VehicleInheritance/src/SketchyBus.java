@@ -1,12 +1,13 @@
 
-public class Beetle extends Car
+public class SketchyBus extends Bus
 	{
-		public Beetle()
+		
+		public SketchyBus()
 			{
-				name = "Beetle";
-				drive = "poor";
-				
+				name = "Sketchy Bus";
+				drive = "bumpy";
 			}
+
 	@Override
 	public void make()
 		{
@@ -18,10 +19,11 @@ public class Beetle extends Car
 	@Override
 	public void model()
 		{
-			System.out.println("Model: Final Edition SE");
+			System.out.println("Model: candyGiver 2000");
 			
 		}
 	
+
 	
 
 	}

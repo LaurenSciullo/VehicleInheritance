@@ -1,12 +1,13 @@
 
-public class Beetle extends Car
+public class Audi extends Car
 	{
-		public Beetle()
-			{
-				name = "Beetle";
-				drive = "poor";
-				
-			}
+		
+		public Audi()
+		{
+			name = "Audi";
+			drive = "smooth & sporty ";
+		}
+
 	@Override
 	public void make()
 		{
@@ -18,10 +19,8 @@ public class Beetle extends Car
 	@Override
 	public void model()
 		{
-			System.out.println("Model: Final Edition SE");
+			System.out.println("Model: 2003 Audi Le Mans Concept");
 			
 		}
-	
-	
 
 	}

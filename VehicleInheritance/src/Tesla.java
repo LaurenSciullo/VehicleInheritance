@@ -1,12 +1,13 @@
 
-public class Beetle extends Car
+public class Tesla extends Car
 	{
-		public Beetle()
-			{
-				name = "Beetle";
-				drive = "poor";
-				
-			}
+		
+		public Tesla()
+		{
+			name = "Tesla";
+			drive = "amazing & eco-efficient";
+		}
+
 	@Override
 	public void make()
 		{
@@ -18,10 +19,8 @@ public class Beetle extends Car
 	@Override
 	public void model()
 		{
-			System.out.println("Model: Final Edition SE");
+			System.out.println("Model: Cybertruck");
 			
 		}
-	
-	
 
 	}

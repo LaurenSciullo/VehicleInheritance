@@ -2,8 +2,8 @@
 public abstract class Vehicle
 	{
 		
-		protected String name;
-		protected String drive;
+		protected  String name;
+		protected  String drive;
 		
 		public abstract void make();
 		public abstract void model();

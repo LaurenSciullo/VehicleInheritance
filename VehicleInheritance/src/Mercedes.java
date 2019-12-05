@@ -1,12 +1,13 @@
 
-public class Beetle extends Car
+public class Mercedes extends Car
 	{
-		public Beetle()
-			{
-				name = "Beetle";
-				drive = "poor";
-				
-			}
+		
+		public Mercedes()
+		{
+			name = "Mercedes-Benz";
+			drive = "steady & sturdy";
+		}
+
 	@Override
 	public void make()
 		{
@@ -18,10 +19,8 @@ public class Beetle extends Car
 	@Override
 	public void model()
 		{
-			System.out.println("Model: Final Edition SE");
+			System.out.println("Model: AMG GT 63 4MATIC Hatchback");
 			
 		}
-	
-	
 
 	}
